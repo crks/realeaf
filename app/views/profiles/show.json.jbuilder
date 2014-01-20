@@ -1,0 +1,1 @@
+json.extract! @profile, :id, :picture, :gender, :sexuality, :interested_in, :monogamous, :location, :religion, :ethnicity, :height, :body_type, :children, :degree, :employed, :drugs, :smoker, :diet, :user_id, :created_at, :updated_at

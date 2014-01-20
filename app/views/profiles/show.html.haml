@@ -1,0 +1,57 @@
+%p#notice= notice
+
+%p
+  %b Picture:
+  = @profile.picture
+%p
+  %b Gender:
+  = @profile.gender
+%p
+  %b Sexuality:
+  = @profile.sexuality
+%p
+  %b Interested in:
+  = @profile.interested_in
+%p
+  %b Monogamous:
+  = @profile.monogamous
+%p
+  %b Location:
+  = @profile.location
+%p
+  %b Religion:
+  = @profile.religion
+%p
+  %b Ethnicity:
+  = @profile.ethnicity
+%p
+  %b Height:
+  = @profile.height
+%p
+  %b Body type:
+  = @profile.body_type
+%p
+  %b Children:
+  = @profile.children
+%p
+  %b Degree:
+  = @profile.degree
+%p
+  %b Employed:
+  = @profile.employed
+%p
+  %b Drugs:
+  = @profile.drugs
+%p
+  %b Smoker:
+  = @profile.smoker
+%p
+  %b Diet:
+  = @profile.diet
+%p
+  %b User:
+  = @profile.user_id
+
+= link_to 'Edit', edit_profile_path(@profile)
+\|
+= link_to 'Back', profiles_path
