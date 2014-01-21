@@ -1,5 +1,4 @@
 class Message < ActiveRecord::Base
-	attr_accessible :sender_id, :receiver_id, :message, :timestamp
 
 	belongs_to :user
 
